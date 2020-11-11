@@ -5,21 +5,19 @@
 }
 
 body{
-	background: rgb(34,34,34);
-	background: linear-gradient(45deg, rgba(34,34,34,1) 0%, rgba(51,51,51,1) 35%, rgba(0,0,0,1) 100%);
+	background-color: #ddd;
 }
 
 .landingPage{
 	position: relative;
 	width: 100%;
-	height: 650px;
+	height: 550px;
 	align-items: center;
 	justify-content: center;
 	display: flex;
-	background-color: rgb(34,34,34);
-	background-image: url('https://www.luxuryandexpensive.com/pic/44526_1.jpg');
+	background-image: url('https://www.classicdriver.com/sites/default/files/cars_images/feed_620564/d20cc0cbb0635a76cb9f6e2662a47c3f6ef3f284.jpg');
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: 100% 100%;
 	background-position: center;
 }
 
@@ -30,7 +28,7 @@ body{
 	align-items: center;
 	top: 0;
 	display: inline-block;
-	background-color: #222;
+	background-color: #f12929;
 }
 
 .landingPage header ul{
@@ -49,7 +47,6 @@ body{
 	display: inline-block;
 	cursor: pointer;
 }
-
 .landingPage header .logo{
 	padding: 5px;
 	width: 120px;
@@ -67,46 +64,26 @@ body{
 	opacity: 0.5;
 	transition-duration: 0.2s;
 }
-
 .landingPage .actions{
 	position: absolute;
-	width: auto;
-	bottom: 100px;
+	bottom: 20px;
 }
 
 .landingPage .actions h1{
 	color: #fff;
-	text-align: center;
-	font-size: 1.4em;
-	font-weight: bold;
-	text-shadow: 2px 2px 10px rgba(0,0,0,0.7);
-	margin-bottom: 20px;
+	text-shadow: 1px 1px 5px rgba(0,0,0,1); 
+
 }
 
 .landingPage .actions button{
-	width: 140px;
-	height: 40px;
-	background-color: rgba(255, 255, 255, 0.6);
-	border: solid 1px rgba(255,255,255, 0.6);
-	cursor: pointer;
-	color: #333;
-	font-size: 0.9em;
-	margin-right: 20px;
+	display: none;
 }
 
-.landingPage .actions button:hover{
-	background-color: rgba(255,255,255, 0.8);
-	transition-duration: 0.5s;
-	box-shadow: 0px 0px 10px rgba(0,0,0,0.7);
-}
 
-.landingPage .actions button span{
-
-}
 
 .especs{
 	width: 90%;
-	height: 100vh;
+	height: auto;
 	margin: 0 auto 0;
 	display: flex;
 	justify-content: center;
@@ -114,18 +91,26 @@ body{
 }
 
 .especs .block{
-	width: 30%;
+	width: 220px;
 	height: 200px;
 	margin: 3%;
-	color: #fff;
+	padding: 20px;
+	color: #333;
+	font-weight: bold;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
 	display: block;
-	box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
-	background-color: #333;
+	border-radius: 10px;
+	box-shadow: 0px 0px 2px rgba(0,0,0,0.3);
+	border: solid 1px #ddd;
+	background-color: #fff;
+	cursor: pointer;
 }
-
+.especs .block:hover{
+	background-color: #f1f1f1;
+	transition-duration: 0.2s;
+}
 .especs .block span{
 	font-size: 1em;
 }
@@ -140,30 +125,39 @@ body{
 
 .testemony{
 	position: relative;
-	background-image: url('https://cdn.motor1.com/images/mgl/2Y3bx/s1/mclaren-p1.jpg');
-	background-size: 100%;
+	background-image: url('https://www.classicdriver.com/sites/default/files/styles/colorbox/public/cars_images/feed_620564/ba328d18f818227ba8d2b489cc57ce1e70ad6f60.jpg');
+	background-size: 100% 100%;
 	background-position: center;
 	background-repeat: no-repeat;
 	width: 100%;
 	display: flex;
-	align-items: center;
-	height: 100vh;
+	align-items: flex-end;
+	justify-content: flex-end;
+	height: 500px;
+}
+
+.testemony:before{
+	width: 0;
 }
 
 .testemony p{
-	color: #fff;
 	font-size: 1.2em;
-	color: #ddd;
-	text-shadow: 0px 0px 20px rgba(0,0,0,1);
-	position: absolute;
-	bottom: 70px;
-	margin: 0px 0px 0px 20px;
+	padding: 10px;
+	color: #111;
+	border-radius: 5px;
+	background-color: rgba(255,255,255,0.6);
+	margin: 20px;
+}
+
+.testemony p:hover{
+	transition-duration: 0.4s;
+	background-color: rgba(255,255,255,0.7);
 }
 
 .versions{
 	width: 80%;
 	height: auto;
-	margin: 0 auto 100px;
+	margin: 50px auto 100px;
 }
 
 .versions table{
@@ -176,22 +170,28 @@ body{
 
 .versions table caption{
 	margin-bottom: 20px; 
-	color: #ddd;
+	color: #222;
 	font-size: 1.3em;
 	font-weight: bold; 
 }
 
+
 td, th {
-  border: 1px solid #aaa;
-  background-color: #dddddd;
+  border: 1px solid #888;
+  background-color: #fff;
   text-align: center;
   padding: 8px;
+}
+
+th{
+	color: #fff;
+	background-color: #f12929;
 }
 
 .buy{
 	width: 50%;
 	height: 300px;
-	background: #dddddd;
+	background: #fff;
 	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
 	border-radius: 4px;
 	overflow-y: auto;
@@ -207,7 +207,7 @@ td, th {
 }
 
 .buy form{
-	width: 60%; 
+	width: 80%; 
 	height: auto; 
 	margin: 0 auto 0;
 }
@@ -218,17 +218,15 @@ td, th {
 	margin-top: 20px;
 	padding-left: 4px;
 	box-sizing: border-box;
-	border: none;
-	border-bottom: solid 1px #aaa;
+	border: solid 1px #aaa;
 	outline: none;
 	width: 100%;
 	height: 32px;
-	background-color: #ddd;
+	background: #fff;
 }
 
 .buy form input[type="text"]:focus, .buy form textarea:focus {
-	border-color: #ff0000;
-	border-width: 2px;
+	background-color: #fafafa;
 }
 
 .buy form input[type="submit"]{
