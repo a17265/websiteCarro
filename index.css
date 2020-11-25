@@ -106,7 +106,7 @@ body{
 
 .especs{
 	width: 90%;
-	height: 100vh;
+	height: 80vh;
 	margin: 0 auto 0;
 	display: flex;
 	justify-content: center;
@@ -141,29 +141,29 @@ body{
 .testemony{
 	position: relative;
 	background-image: url('https://cdn.motor1.com/images/mgl/2Y3bx/s1/mclaren-p1.jpg');
-	background-size: 100%;
+	background-size: 100% auto; 
 	background-position: center;
 	background-repeat: no-repeat;
 	width: 100%;
+	height: 500px;
 	display: flex;
 	align-items: center;
-	height: 100vh;
 }
 
 .testemony p{
+	position: absolute;
 	color: #fff;
-	font-size: 1.2em;
+	font-size: 18px;
 	color: #ddd;
 	text-shadow: 0px 0px 20px rgba(0,0,0,1);
-	position: absolute;
-	bottom: 70px;
-	margin: 0px 0px 0px 20px;
+	bottom: 40px;
+	left: 40px;
 }
 
 .versions{
 	width: 80%;
 	height: auto;
-	margin: 0 auto 100px;
+	margin: 50px auto 100px;
 }
 
 .versions table{

@@ -15,9 +15,9 @@ body{
 	align-items: center;
 	justify-content: center;
 	display: flex;
-	background-image: url('https://www.classicdriver.com/sites/default/files/cars_images/feed_620564/d20cc0cbb0635a76cb9f6e2662a47c3f6ef3f284.jpg');
+	background-image: url('https://wallpaperaccess.com/full/2503863.jpg');
 	background-repeat: no-repeat;
-	background-size: 100% 100%;
+	background-size: 100%;
 	background-position: center;
 }
 
@@ -83,7 +83,7 @@ body{
 
 .especs{
 	width: 90%;
-	height: auto;
+	height: 80vh;
 	margin: 0 auto 0;
 	display: flex;
 	justify-content: center;
@@ -91,7 +91,7 @@ body{
 }
 
 .especs .block{
-	width: 220px;
+	width: 30%;
 	height: 200px;
 	margin: 3%;
 	padding: 20px;
@@ -112,7 +112,7 @@ body{
 	transition-duration: 0.2s;
 }
 .especs .block span{
-	font-size: 1em;
+	font-size: 20px;
 }
 
 .especs .block .icon{
@@ -125,7 +125,7 @@ body{
 
 .testemony{
 	position: relative;
-	background-image: url('https://www.classicdriver.com/sites/default/files/styles/colorbox/public/cars_images/feed_620564/ba328d18f818227ba8d2b489cc57ce1e70ad6f60.jpg');
+	background-image: url('https://www.teahub.io/photos/full/61-615693_mclaren-wallpaper-hd-mclaren-p1-hd-wallpapers-1080p.jpg');
 	background-size: 100% 100%;
 	background-position: center;
 	background-repeat: no-repeat;
